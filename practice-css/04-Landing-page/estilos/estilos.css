@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 5.625rem;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+footer {
+  background-color: #2d3c50;
+  color: white;
+  justify-self: flex-end;
+  text-align: center;
+  padding: 10px;
+}
+
+.top-header {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  font-size: 18px;
+}
+
+.header-links a {
+  margin-left: 3rem;
+  color: #f9faf8;
+}
+
+.header-info {
+  display: flex;
+  flex: 1 0 1;
+  justify-content: space-between;
+  padding: 40px 0 60px 0;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 50%;
+}
+
+.header-text p {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+.header-image {
+  margin-left: 15px;
+  max-width: 50%;
+}
+
+.title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.our-service {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.card {
+  flex: 0 0 200px;
+}
+
+.card img {
+  border: 5px solid #3882f6;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 5% 25%;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cite {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.owner-cite {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  padding: 60px;
+  margin: 60px 150px;
+  border-radius: 5px;
+}
+
+.subscribe h2 {
+  color: #f9faf8;
+}
+
+.subscribe p {
+  color: #e5e7eb;
+}
+
+.subscribe-button {
+  background-color: #3882f6;
+  border: 3px solid #f9faf8;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding: 5px 15px;
+}

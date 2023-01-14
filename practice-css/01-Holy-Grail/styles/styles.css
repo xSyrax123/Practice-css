@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.header,
+.footer {
+  background-color: #84cbfb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+nav,
+aside {
+  background-color: #725672;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+article {
+  background-color: #e8b8cb;
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.content,
+aside, 
+nav {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+article p {
+  font-size: 24px;
+}
+
+ol li{
+  list-style: none;
+  text-align: center;
+}
